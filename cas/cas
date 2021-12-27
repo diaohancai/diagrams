@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T02:39:12.976Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="CcKDNxR7XMHM3q-mftUK" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T03:03:36.907Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="uVZ2fmRrLhh9ij0SuPXs" version="15.9.6" type="github">
   <diagram id="NRHzkT39FU5EiaoGJjkl" name="Page-1">
-    <mxGraphModel dx="2946" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1683" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RBI-DQvdG3E61mDO4HBI-1" target="RBI-DQvdG3E61mDO4HBI-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="674" y="440" />
+              <mxPoint x="109" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RBI-DQvdG3E61mDO4HBI-1" target="RBI-DQvdG3E61mDO4HBI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-1" value="cas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RBI-DQvdG3E61mDO4HBI-2" target="RBI-DQvdG3E61mDO4HBI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RBI-DQvdG3E61mDO4HBI-2" target="RBI-DQvdG3E61mDO4HBI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RBI-DQvdG3E61mDO4HBI-2" target="RBI-DQvdG3E61mDO4HBI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RBI-DQvdG3E61mDO4HBI-2" target="RBI-DQvdG3E61mDO4HBI-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="109" y="440" />
+              <mxPoint x="674" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-2" value="web browser" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="94" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-5" value="app1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RBI-DQvdG3E61mDO4HBI-6" target="RBI-DQvdG3E61mDO4HBI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-6" value="app2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-7" value="app3" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-12" value="cookie: TGC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-14" value="TGT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="644" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-18" value="重定向" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="504" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-21" value="登录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="366" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-26" value="cookie set TGC&lt;br&gt;重定向app，url?ticket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330.5" y="450" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-27" value="ticket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-28" value="验证ticket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="504" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RBI-DQvdG3E61mDO4HBI-6" target="RBI-DQvdG3E61mDO4HBI-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="436" y="280" />
+              <mxPoint x="394" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-31" value="ticket验证成功&lt;br&gt;维护app2 session" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="434" y="250" width="106" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
