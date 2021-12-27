@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T03:09:43.413Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="esxw4lFdjwWyOHOwk7j-" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T03:19:48.135Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="QhAwCPabOsZRK3O6fN9T" version="15.9.6" type="github">
   <diagram id="NRHzkT39FU5EiaoGJjkl" name="Page-1">
     <mxGraphModel dx="1683" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,6 +135,9 @@
         </mxCell>
         <mxCell id="RBI-DQvdG3E61mDO4HBI-47" value="logout 自行清除app1 session" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="444" y="50" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RBI-DQvdG3E61mDO4HBI-48" value="&lt;h1&gt;名词术语&lt;/h1&gt;&lt;p&gt;TGT(ticket granting ticket)：cas server端管理，用户登录信息，俗称大票根&lt;/p&gt;&lt;p&gt;TGC(ticket granting cookie)：TGT的key值，即通过TGC可以找到TGT，下发给浏览器存储cookie&lt;/p&gt;&lt;p&gt;Ticket：由TGT颁发的临时票据ticket，只能使用一次，俗称票根&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="550" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
