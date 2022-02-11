@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T11:43:06.313Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="4Xyr9vama9OE8pHoJf1e" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T12:12:38.132Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="IPPCRud4FERsVQ4CtwRX" version="16.2.4" type="github">
   <diagram id="d5UGzW644qYcgFJwwa-g" name="Page-1">
     <mxGraphModel dx="2032" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,7 +54,7 @@
             <mxPoint x="280" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eNamNgAYAro-8tq2c0Wl-38" value="相似度6:质量分综合排序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eNamNgAYAro-8tq2c0Wl-36">
+        <mxCell id="eNamNgAYAro-8tq2c0Wl-38" value="相似度6:质量分4综合排序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eNamNgAYAro-8tq2c0Wl-36">
           <mxGeometry x="-0.1017" y="3" relative="1" as="geometry">
             <mxPoint x="6" y="3" as="offset" />
           </mxGeometry>
@@ -65,7 +65,7 @@
             <mxPoint x="450" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eNamNgAYAro-8tq2c0Wl-41" value="相似度6:质量分综合排序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eNamNgAYAro-8tq2c0Wl-40">
+        <mxCell id="eNamNgAYAro-8tq2c0Wl-41" value="相似度6:质量分4综合排序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eNamNgAYAro-8tq2c0Wl-40">
           <mxGeometry x="-0.1017" y="3" relative="1" as="geometry">
             <mxPoint x="6" y="3" as="offset" />
           </mxGeometry>
