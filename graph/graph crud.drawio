@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T08:29:51.343Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="lSZa5Rjj4kD60zPZN5oP" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T09:01:01.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="zTPdAg4DfeSrdJkLir0g" version="17.1.5" type="github">
   <diagram id="hr9dEiHEGesrQEIzNiK0" name="Page-1">
     <mxGraphModel dx="1683" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ebm19gmncExmbUfi3R8s-6" value="l2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ebm19gmncExmbUfi3R8s-1" target="ebm19gmncExmbUfi3R8s-2">
+        <mxCell id="ebm19gmncExmbUfi3R8s-6" value="l2&lt;br&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;status=1&lt;/span&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ebm19gmncExmbUfi3R8s-1" target="ebm19gmncExmbUfi3R8s-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ebm19gmncExmbUfi3R8s-7" value="l3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ebm19gmncExmbUfi3R8s-1" target="ebm19gmncExmbUfi3R8s-3">
+        <mxCell id="ebm19gmncExmbUfi3R8s-7" value="l3&lt;br&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;status=1&lt;/span&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ebm19gmncExmbUfi3R8s-1" target="ebm19gmncExmbUfi3R8s-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ebm19gmncExmbUfi3R8s-14" value="l4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=11;dashed=1;" edge="1" parent="1" source="ebm19gmncExmbUfi3R8s-1" target="ebm19gmncExmbUfi3R8s-10">
+        <mxCell id="ebm19gmncExmbUfi3R8s-14" value="l4&lt;br&gt;status=0" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=11;dashed=1;" edge="1" parent="1" source="ebm19gmncExmbUfi3R8s-1" target="ebm19gmncExmbUfi3R8s-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ebm19gmncExmbUfi3R8s-1" value="B&lt;br&gt;status=1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -20,12 +20,12 @@
           <mxGeometry x="50" y="620" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ebm19gmncExmbUfi3R8s-3" value="D&lt;br&gt;status=1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="160" y="630" width="50" height="50" as="geometry" />
+          <mxGeometry x="160" y="650" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ebm19gmncExmbUfi3R8s-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ebm19gmncExmbUfi3R8s-4" target="ebm19gmncExmbUfi3R8s-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ebm19gmncExmbUfi3R8s-12" value="l1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="ebm19gmncExmbUfi3R8s-5">
+        <mxCell id="ebm19gmncExmbUfi3R8s-12" value="l1&lt;br&gt;status=1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="ebm19gmncExmbUfi3R8s-5">
           <mxGeometry x="-0.2536" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -33,13 +33,13 @@
         <mxCell id="ebm19gmncExmbUfi3R8s-4" value="A&lt;br&gt;status=1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="269" y="490" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ebm19gmncExmbUfi3R8s-8" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;操作：&lt;/p&gt;&lt;p&gt;status：-1不通过；0未审核；1已审核&lt;/p&gt;&lt;p&gt;1、新增顶点E(status=0)&lt;/p&gt;&lt;p&gt;2、新增边l4(status=0) B-&amp;gt;E&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="275" width="300" height="310" as="geometry" />
+        <mxCell id="ebm19gmncExmbUfi3R8s-8" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;新增：&lt;/p&gt;&lt;p&gt;status：-1不通过；0未审核；1已审核&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;新增顶点E(status=0)&lt;/li&gt;&lt;li&gt;新增边l4(status=0) B-&amp;gt;E&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;等待上级审核，审核即将status置为1。&lt;/p&gt;&lt;p&gt;通过审核后，图表样式恢复正常&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;修改：&lt;/p&gt;&lt;p&gt;修改需要记录修改前后的数据，方便审核，通过properties完成，增加字段 before: xxx&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;修改顶点&lt;/li&gt;&lt;ol&gt;&lt;li&gt;id ×&lt;/li&gt;&lt;li&gt;label ×&lt;/li&gt;&lt;li&gt;properties √ 只能修改非主键属性&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;修改边&lt;/li&gt;&lt;ol&gt;&lt;li&gt;id ×&lt;/li&gt;&lt;li&gt;label ×&lt;/li&gt;&lt;li&gt;起点 终点 ×&lt;/li&gt;&lt;li&gt;properties √ 只能修改非主键属性&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="190" width="300" height="420" as="geometry" />
         </mxCell>
         <mxCell id="ebm19gmncExmbUfi3R8s-9" value="&lt;h1&gt;图基本概念&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;图包含元素：&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;/p&gt;&lt;ol style=&quot;font-size: 11px&quot;&gt;&lt;li style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;vertex 顶点&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;edge 边&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;顶点、边包含内容：&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;ol style=&quot;font-size: 11px&quot;&gt;&lt;li style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;主键 id&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;类型 label&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;属性 properties（多个属性，属性可以建立索引）&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="250" width="330" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="ebm19gmncExmbUfi3R8s-10" value="E&lt;br&gt;status=0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="ebm19gmncExmbUfi3R8s-10" value="E&lt;br&gt;status=0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="319" y="700" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
