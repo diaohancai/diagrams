@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T02:25:10.842Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="6FTIErryVPDkIjocKgxi" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T02:26:19.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="FIxSMgIUkodb6OwAdj1B" version="18.1.3" type="github">
   <diagram id="kRX3TJ4ZSRatoJqh-dYw" name="Page-1">
     <mxGraphModel dx="2032" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,14 +116,20 @@
         <mxCell id="xcjFeVzdtD4dp9D_b4f6-26" value="1、canal同步，一定存在延迟问题&lt;br&gt;2、同步双写 + datax&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;同步双写（增量式）：保存mysql后，同时写入es。缺点：响应慢一点&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;datax（全量式）：每天定时全量同步一次，避免各种原因导致的不一致问题（如手工操作了mysql）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="1050" width="650" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="xcjFeVzdtD4dp9D_b4f6-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="xcjFeVzdtD4dp9D_b4f6-27" target="xcjFeVzdtD4dp9D_b4f6-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xcjFeVzdtD4dp9D_b4f6-27" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;人才表&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1、标签&lt;br&gt;2、关联岗位&lt;br&gt;3、来源&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="-170" width="180" height="90" as="geometry" />
+          <mxGeometry x="180" y="-170" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xcjFeVzdtD4dp9D_b4f6-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="xcjFeVzdtD4dp9D_b4f6-28" target="xcjFeVzdtD4dp9D_b4f6-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xcjFeVzdtD4dp9D_b4f6-28" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;岗位表&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1、客户公司&lt;br&gt;2、职位名称&lt;br&gt;3、招聘人数&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="-170" width="180" height="90" as="geometry" />
+          <mxGeometry x="470" y="-170" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="xcjFeVzdtD4dp9D_b4f6-29" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;岗位-人才表（中间表 N:N）&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1、岗位id&lt;br&gt;2、人才id&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
-          <mxGeometry x="324" y="-350" width="180" height="90" as="geometry" />
+          <mxGeometry x="324" y="-330" width="180" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
