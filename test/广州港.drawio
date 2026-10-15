@@ -1,0 +1,252 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="m6F_eifU-t6qso7j_fAj">
+    <mxGraphModel dx="1404" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;" value="&lt;div style=&#39;font-size:22px;font-weight:bold&#39;&gt;数享大数据治理平台｜生产部署架构图&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="800" x="500" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&#39;font-size:16px;font-weight:bold&#39;&gt;接入访问层&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="1400" x="60" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="user" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e6f7ff" value="用户浏览器" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nginx_web" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff" value="Nginx&lt;br/&gt;Web中台&lt;br/&gt;10.200.17.97:19206" vertex="1">
+          <mxGeometry height="60" width="180" x="320" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="conn_user_nginx" edge="1" parent="1" source="user" style="endArrow=block;html=1;edgeStyle=orthogonalEdgeStyle;" target="nginx_web" value="">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="layer2_title" parent="1" style="text;html=1;" value="&lt;div style=&#39;font-size:16px;font-weight:bold&#39;&gt;业务微服务应用层&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="60" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="svr_app1" parent="1" style="rounded=1;dashed=1;whiteSpace=wrap;html=1;" value="&lt;div style=&#39;font-weight:bold&#39;&gt;数据治理生产应用服务器1&lt;br/&gt;10.200.16.89&lt;/div&gt;" vertex="1">
+          <mxGeometry height="420" width="620" x="80" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="group_gateway_auth" parent="svr_app1" style="rounded=1;fillColor=#f0f8ff;whiteSpace=wrap;html=1;" value="网关 &amp; 权限模块" vertex="1">
+          <mxGeometry height="110" width="260" x="30" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_gateway" parent="group_gateway_auth" style="rounded=1;whiteSpace=wrap;html=1;" value="gateway 服务网关" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_auth" parent="group_gateway_auth" style="rounded=1;whiteSpace=wrap;html=1;" value="auth 权限管理" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_system" parent="group_gateway_auth" style="rounded=1;whiteSpace=wrap;html=1;" value="system 系统管理" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="group_asset" parent="svr_app1" style="rounded=1;fillColor=#f0f8ff;whiteSpace=wrap;html=1;" value="资产 &amp; 门户 &amp; 模型" vertex="1">
+          <mxGeometry height="170" width="260" x="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_dataportal" parent="group_asset" style="rounded=1;whiteSpace=wrap;html=1;" value="dataportal 门户" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_dataasset" parent="group_asset" style="rounded=1;whiteSpace=wrap;html=1;" value="dataasset 分级分类" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_assetmgmt" parent="group_asset" style="rounded=1;whiteSpace=wrap;html=1;" value="asset‑management 数据目录" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_datamodel" parent="group_asset" style="rounded=1;whiteSpace=wrap;html=1;" value="datamodel 数据模型" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_datafactory" parent="group_asset" style="rounded=1;whiteSpace=wrap;html=1;" value="datafactory 数据工厂" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="group_collect_file" parent="svr_app1" style="rounded=1;fillColor=#f0f8ff;whiteSpace=wrap;html=1;" value="采集接入 &amp; 文件服务" vertex="1">
+          <mxGeometry height="170" width="260" x="30" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_acquisition" parent="group_collect_file" style="rounded=1;whiteSpace=wrap;html=1;" value="acquisition 数据采集" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_datasource" parent="group_collect_file" style="rounded=1;whiteSpace=wrap;html=1;" value="datasource‑server 数据源管理" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_file" parent="group_collect_file" style="rounded=1;whiteSpace=wrap;html=1;" value="file 文件服务" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_exploration" parent="group_collect_file" style="rounded=1;whiteSpace=wrap;html=1;" value="exploration 数据探查" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_camelserver" parent="group_collect_file" style="rounded=1;whiteSpace=wrap;html=1;" value="camelserver 服务总线" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="group_flow_job" parent="svr_app1" style="rounded=1;fillColor=#f0f8ff;whiteSpace=wrap;html=1;" value="流程 &amp; 调度任务" vertex="1">
+          <mxGeometry height="130" width="260" x="310" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_flowable" parent="group_flow_job" style="rounded=1;whiteSpace=wrap;html=1;" value="flowable 流程引擎" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_xxljob" parent="group_flow_job" style="rounded=1;whiteSpace=wrap;html=1;" value="xxl‑job‑admin 任务调度" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="svr_app2" parent="1" style="rounded=1;dashed=1;whiteSpace=wrap;html=1;" value="&lt;div style=&#39;font-weight:bold&#39;&gt;数据治理生产应用服务器2&lt;br/&gt;10.200.17.69&lt;/div&gt;" vertex="1">
+          <mxGeometry height="420" width="620" x="740" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="group_quality_meta" parent="svr_app2" style="rounded=1;fillColor=#f0f8ff;whiteSpace=wrap;html=1;" value="数据标准 &amp; 质量 &amp; 元数据" vertex="1">
+          <mxGeometry height="170" width="260" x="30" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_standard" parent="group_quality_meta" style="rounded=1;whiteSpace=wrap;html=1;" value="standard 数据标准" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_quality" parent="group_quality_meta" style="rounded=1;whiteSpace=wrap;html=1;" value="quality 数据质量管理" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_inspect" parent="group_quality_meta" style="rounded=1;whiteSpace=wrap;html=1;" value="inspect 数据稽查" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_metadata" parent="group_quality_meta" style="rounded=1;whiteSpace=wrap;html=1;" value="metadata 元数据管理" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_message" parent="group_quality_meta" style="rounded=1;whiteSpace=wrap;html=1;" value="message 消息中心" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="group_mdm_indicator" parent="svr_app2" style="rounded=1;fillColor=#f0f8ff;whiteSpace=wrap;html=1;" value="主数据 &amp; 指标管理" vertex="1">
+          <mxGeometry height="130" width="260" x="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_mdm" parent="group_mdm_indicator" style="rounded=1;whiteSpace=wrap;html=1;" value="mdm 主数据管理" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_indicatorv2" parent="group_mdm_indicator" style="rounded=1;whiteSpace=wrap;html=1;" value="indicator‑v2 新版本指标" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="group_realtime_job_yarn" parent="svr_app2" style="rounded=1;fillColor=#f0f8ff;whiteSpace=wrap;html=1;" value="实时采集 &amp; 运营 &amp; 任务" vertex="1">
+          <mxGeometry height="170" width="260" x="30" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_realtime" parent="group_realtime_job_yarn" style="rounded=1;whiteSpace=wrap;html=1;" value="realtime 实时采集" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_operation" parent="group_realtime_job_yarn" style="rounded=1;whiteSpace=wrap;html=1;" value="operation‑management 运营管理" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_job" parent="group_realtime_job_yarn" style="rounded=1;whiteSpace=wrap;html=1;" value="job 任务管理" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_yarn" parent="group_realtime_job_yarn" style="rounded=1;whiteSpace=wrap;html=1;" value="yarn 对接服务" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3_title" parent="1" style="text;html=1;" value="&lt;div style=&#39;font-size:16px;font-weight:bold&#39;&gt;中间件 &amp; 基础组件层&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="60" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="svr_base1" parent="1" style="rounded=1;dashed=1;whiteSpace=wrap;html=1;" value="&lt;div style=&#39;font-weight:bold&#39;&gt;基础组件服务器1&lt;br/&gt;10.200.17.97&lt;/div&gt;" vertex="1">
+          <mxGeometry height="340" width="600" x="80" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="comp_nacos" parent="svr_base1" style="rounded=1;fillColor=#e1edff;whiteSpace=wrap;html=1;" value="Nacos&lt;br/&gt;注册配置中心" vertex="1">
+          <mxGeometry height="50" width="160" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp_mysql_master" parent="svr_base1" style="rounded=1;fillColor=#e1edff;whiteSpace=wrap;html=1;" value="MySQL‑主库&lt;br/&gt;13306" vertex="1">
+          <mxGeometry height="50" width="160" x="210" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp_redis" parent="svr_base1" style="rounded=1;fillColor=#e1edff;whiteSpace=wrap;html=1;" value="Redis&lt;br/&gt;缓存" vertex="1">
+          <mxGeometry height="50" width="160" x="390" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp_kafka" parent="svr_base1" style="rounded=1;fillColor=#e1edff;whiteSpace=wrap;html=1;" value="Kafka&lt;br/&gt;消息队列" vertex="1">
+          <mxGeometry height="50" width="160" x="30" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="comp_zk" parent="svr_base1" style="rounded=1;fillColor=#e1edff;whiteSpace=wrap;html=1;" value="Zookeeper" vertex="1">
+          <mxGeometry height="50" width="160" x="210" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="comp_es" parent="svr_base1" style="rounded=1;fillColor=#e1edff;whiteSpace=wrap;html=1;" value="ElasticSearch&lt;br/&gt;检索" vertex="1">
+          <mxGeometry height="50" width="160" x="390" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="comp_neo4j" parent="svr_base1" style="rounded=1;fillColor=#e1edff;whiteSpace=wrap;html=1;" value="Neo4j&lt;br/&gt;血缘图谱" vertex="1">
+          <mxGeometry height="50" width="160" x="30" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="comp_minio" parent="svr_base1" style="rounded=1;fillColor=#e1edff;whiteSpace=wrap;html=1;" value="MinIO&lt;br/&gt;对象存储" vertex="1">
+          <mxGeometry height="50" width="160" x="210" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="comp_ds_master" parent="svr_base1" style="rounded=1;fillColor=#e1edff;whiteSpace=wrap;html=1;" value="DolphinScheduler&lt;br/&gt;调度主节点" vertex="1">
+          <mxGeometry height="50" width="160" x="390" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="svr_base2" parent="1" style="rounded=1;dashed=1;whiteSpace=wrap;html=1;" value="&lt;div style=&#39;font-weight:bold&#39;&gt;基础组件服务器2&lt;br/&gt;10.200.19.107&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="300" x="720" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="comp_mysql_slave" parent="svr_base2" style="rounded=1;fillColor=#e1edff;whiteSpace=wrap;html=1;" value="MySQL‑从库&lt;br/&gt;13306" vertex="1">
+          <mxGeometry height="60" width="220" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp_ds_slave" parent="svr_base2" style="rounded=1;fillColor=#e1edff;whiteSpace=wrap;html=1;" value="DolphinScheduler&lt;br/&gt;从节点" vertex="1">
+          <mxGeometry height="60" width="220" x="30" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="conn_mysql_ms" edge="1" parent="1" source="comp_mysql_master" style="endArrow=block;dashed=1;html=1;edgeStyle=orthogonalEdgeStyle;" target="comp_mysql_slave" value="主从复制">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="layer4_title" parent="1" style="text;html=1;" value="&lt;div style=&#39;font-size:16px;font-weight:bold&#39;&gt;大数据底座层(Hadoop3.3.6 + Doris2.1.11)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="500" x="60" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="svr_big1" parent="1" style="rounded=1;dashed=1;whiteSpace=wrap;html=1;" value="&lt;div style=&#39;font-weight:bold&#39;&gt;大数据集群1 master1&lt;br/&gt;10.200.18.2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="340" x="80" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="big_hadoop" parent="svr_big1" style="rounded=1;fillColor=#d9edf7;whiteSpace=wrap;html=1;" value="Hadoop集群&lt;br/&gt;NameNode HA / YARN / HDFS" vertex="1">
+          <mxGeometry height="60" width="300" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="big_doris1" parent="svr_big1" style="rounded=1;fillColor=#d9edf7;whiteSpace=wrap;html=1;" value="Doris FE/BE" vertex="1">
+          <mxGeometry height="60" width="300" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="svr_big2" parent="1" style="rounded=1;dashed=1;whiteSpace=wrap;html=1;" value="&lt;div style=&#39;font-weight:bold&#39;&gt;大数据集群2 master2&lt;br/&gt;10.200.17.166&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="340" x="440" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="big_hadoop2" parent="svr_big2" style="rounded=1;fillColor=#d9edf7;whiteSpace=wrap;html=1;" value="Hadoop集群&lt;br/&gt;NameNode HA / YARN / HDFS" vertex="1">
+          <mxGeometry height="60" width="300" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="big_doris2" parent="svr_big2" style="rounded=1;fillColor=#d9edf7;whiteSpace=wrap;html=1;" value="Doris FE/BE" vertex="1">
+          <mxGeometry height="60" width="300" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="svr_big3" parent="1" style="rounded=1;dashed=1;whiteSpace=wrap;html=1;" value="&lt;div style=&#39;font-weight:bold&#39;&gt;大数据集群3 slave1&lt;br/&gt;10.200.17.79&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="340" x="800" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="big_hadoop3" parent="svr_big3" style="rounded=1;fillColor=#d9edf7;whiteSpace=wrap;html=1;" value="Hadoop集群&lt;br/&gt;DataNode / JournalNode" vertex="1">
+          <mxGeometry height="60" width="300" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="big_doris3" parent="svr_big3" style="rounded=1;fillColor=#d9edf7;whiteSpace=wrap;html=1;" value="Doris BE" vertex="1">
+          <mxGeometry height="60" width="300" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div style=&#39;font-weight:bold&#39;&gt;图例&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="240" x="1400" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="leg1" parent="legend_box" style="text;html=1;" value="▭ 矩形：组件/微服务" vertex="1">
+          <mxGeometry height="24" width="210" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="leg2" parent="legend_box" style="text;html=1;" value="⬚ 虚线框：物理服务器主机" vertex="1">
+          <mxGeometry height="24" width="210" x="10" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="leg3" parent="legend_box" style="text;html=1;" value="➤ 实线：调用/读写访问" vertex="1">
+          <mxGeometry height="24" width="210" x="10" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="leg4" parent="legend_box" style="text;html=1;" value="⤿ 虚线：集群同步/主从复制" vertex="1">
+          <mxGeometry height="24" width="210" x="10" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="conn_nginx_gateway" edge="1" parent="1" source="nginx_web" style="endArrow=block;html=1;edgeStyle=orthogonalEdgeStyle;" target="svc_gateway" value="">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="conn_svc_nacos" edge="1" parent="1" source="svc_gateway" style="endArrow=block;html=1;edgeStyle=orthogonalEdgeStyle;" target="comp_nacos" value="注册&amp;配置">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="conn_svc_mysql" edge="1" parent="1" source="svc_gateway" style="endArrow=block;html=1;edgeStyle=orthogonalEdgeStyle;" target="comp_mysql_master" value="业务数据读写">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="conn_file_minio" edge="1" parent="1" source="svc_file" style="endArrow=block;html=1;edgeStyle=orthogonalEdgeStyle;" target="comp_minio" value="文件存储">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="conn_meta_es" edge="1" parent="1" source="svc_metadata" style="endArrow=block;html=1;edgeStyle=orthogonalEdgeStyle;" target="comp_es" value="元数据检索">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="conn_meta_neo4j" edge="1" parent="1" source="svc_metadata" style="endArrow=block;html=1;edgeStyle=orthogonalEdgeStyle;" target="comp_neo4j" value="血缘存储">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="82w3STtI-IvyFr9IJ_7Q-1" connectable="0" parent="conn_meta_neo4j" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="254" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn_rt_kafka" edge="1" parent="1" source="svc_realtime" style="endArrow=block;html=1;edgeStyle=orthogonalEdgeStyle;" target="comp_kafka" value="消息生产消费">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="conn_svc_bigdata" edge="1" parent="1" source="svc_acquisition" style="endArrow=block;html=1;edgeStyle=orthogonalEdgeStyle;" target="big_hadoop" value="数据读写计算">
+          <mxGeometry as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
